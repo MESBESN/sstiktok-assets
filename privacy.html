@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gizlilik Politikasi - SSautomation TikTok</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         max-width: 46rem; margin: 0 auto; padding: 3rem 1.25rem 5rem; line-height: 1.65; }
+  h1 { font-size: 1.9rem; margin-bottom: .25rem; }
+  .sub { color: #6b7280; margin-top: 0; }
+  h2 { margin-top: 2.25rem; font-size: 1.15rem; }
+  ul { padding-left: 1.2rem; }
+  code { background: rgba(127,127,127,.16); padding: .1rem .35rem; border-radius: 4px; }
+</style>
+</head>
+<body>
+
+<h1>Gizlilik Politikasi</h1>
+<p class="sub">SSautomation TikTok &middot; Son guncelleme: 21 Agustos 2026</p>
+
+<p>
+  SSautomation TikTok ("uygulama"), tek bir kisinin kendi TikTok hesabi icin
+  icerik hazirlamakta kullandigi kisisel bir otomasyon aracidir. Uygulama
+  herkese acik bir hizmet degildir, kullanici kaydi almaz ve uygulama
+  sahibi disinda kimseye hizmet vermez.
+</p>
+
+<h2>Toplanan veriler</h2>
+<p>Uygulama TikTok API uzerinden yalnizca su verilere erisir:</p>
+<ul>
+  <li><code>user.info.basic</code> - hesabin temel profil bilgisi, yalnizca
+      dogru hesaba baglanildigini dogrulamak icin.</li>
+  <li><code>video.upload</code> - hazirlanan fotograf karuselini hesabin
+      taslaklarina yuklemek icin.</li>
+  <li><code>video.list</code> - kendi gonderilerimizin izlenme, begeni ve
+      yorum sayilarini okumak icin.</li>
+</ul>
+<p>
+  Baska hicbir kullanicinin verisine erisilmez. Uygulama baska TikTok
+  kullanicilarina acilmaz.
+</p>
+
+<h2>Verilerin kullanimi</h2>
+<p>
+  Alinan veriler yalnizca hesap sahibinin kendi icerigini hazirlamak ve
+  kendi gonderilerinin performansini gormek icin kullanilir. Veriler
+  satilmaz, reklam amaciyla kullanilmaz ve ucuncu taraflarla paylasilmaz.
+</p>
+
+<h2>Saklama</h2>
+<p>
+  Erisim ve yenileme jetonlari, hesap sahibinin kendi private GitHub
+  deposunda sifreli GitHub Actions secret'i olarak tutulur. Uretilen gorseller
+  ve gonderi metinleri ayni sahibin depolarinda saklanir. Performans sayilari
+  (izlenme, begeni) yalnizca gecmis kaydi olarak, hesap sahibinin private
+  deposunda tutulur.
+</p>
+
+<h2>Ucuncu taraf servisler</h2>
+<ul>
+  <li><strong>TikTok API</strong> - icerik yukleme ve istatistik okuma.</li>
+  <li><strong>Google Gemini API</strong> - metin uretimi. Gonderilen veri
+      yalnizca herkese acik gundem basliklaridir; kisisel veri gonderilmez.</li>
+  <li><strong>GitHub</strong> - kod, zamanlayici ve gorsel barindirma.</li>
+  <li><strong>Telegram</strong> - hazirlanan taslagin hesap sahibine
+      bildirilmesi.</li>
+</ul>
+
+<h2>Erisimin kaldirilmasi</h2>
+<p>
+  Hesap sahibi TikTok uygulama ayarlarindan yetkilendirmeyi diledigi an
+  kaldirabilir. Yetki kaldirildiginda uygulama hicbir veriye erisemez ve
+  saklanan jetonlar gecersiz hale gelir.
+</p>
+
+<h2>Iletisim</h2>
+<p>
+  Sorular icin: uygulama sahibinin GitHub profili -
+  <a href="https://github.com/MESBESN">github.com/MESBESN</a>
+</p>
+
+</body>
+</html>
